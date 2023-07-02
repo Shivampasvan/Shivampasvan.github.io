@@ -10,21 +10,19 @@ const Home = () => {
             <span className="one">Hello,</span>
             <span className="two">I'm</span>
           </div>
-          <h1 id="user-detail-name">Uttam Kumar Shaw</h1>
-          <h3 id="user-detail-skill">
-          A Full Stack Web Developer.
-          </h3>
+          <h1 id="user-detail-name">Shivam Pasvan</h1>
+          <h3 id="user-detail-skill">A Full Stack Web Developer.</h3>
 
           <br />
-          <button id="resume-button-2" style={{ marginTop: "5px" }}>
+          {/* <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               href={CV}
-              download="pdf"
+              download="Shivam_Pasvan_Resume"
               id="resume-link-2"
               target="_blank"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
+                  "https://drive.google.com/file/d/1btpP8GpXCqHSVFquGhEMmGley6nch-kY/view?usp=share_link"
                 )
               }
             >
@@ -33,7 +31,7 @@ const Home = () => {
               </span>
               Resume
             </a>
-          </button>
+          </button> */}
         </div>
       </section>
     </>

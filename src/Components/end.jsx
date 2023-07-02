@@ -5,13 +5,11 @@ const End = () => {
   return (
     <>
       <section className="end">
-        <div className="last" style={{display : "flex"}}>
+        <div className="last" style={{ display: "flex" }}>
           <span>
-        <AiOutlineCopyrightCircle color="#781c9f"/>
-        </span>
-          <p>
-              Created by Uttam Kumar Shaw All Rights Reserved.
-          </p>
+            <AiOutlineCopyrightCircle color="#781c9f" />
+          </span>
+          <p>Created by Shivam Pasvan All Rights Reserved.</p>
         </div>
         <div className="top">
           <a href="#home">

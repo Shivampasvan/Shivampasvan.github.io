@@ -15,57 +15,51 @@ const Contact = () => {
             Talent wins games, but teamwork and intelligence win championships.
           </h4>
           <p>
-            Fill the form to connect if any query <i className="fas fa-smile"></i>
+            Fill the form to connect if any query{" "}
+            <i className="fas fa-smile"></i>
           </p>
           <div className="list">
             <li id="contact-phone">
               <a
-                href="https://api.whatsapp.com/send?phone=+919091390251"
+                href="https://api.whatsapp.com/send?phone=+918006376765"
                 target="_blank"
               >
-                +91-9091390251
+                +91-8006376765
               </a>
             </li>
             <li>
               <a
-                href="mailto:uttamkr5599@gmail.com"
+                href="mailto:shivampasvan@gmail.com"
                 id="contact-email"
                 target="_blank"
               >
-                uttamkr5599@gmail.com{" "}
+                shivampasvan@gmail.com{" "}
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
+                href="https://www.linkedin.com/in/shivampasvan/"
                 id="contact-linkedin"
               >
                 {" "}
-                Linkedin : Uttam Kumar
+                Linkedin : Shivam Pasvan
               </a>
             </li>
           </div>
           <div className="contact-icons">
             <a
               id="contact-github"
-              href="https://github.com/uttamkrshaw"
+              href="https://github.com/Shivampasvan"
               target="_blank"
             >
               <i>
                 <AiFillGithub />
               </i>
             </a>
-            {/* <a
-              href="https://api.whatsapp.com/send?phone=+916387389485"
-              target="_blank"
-            >
-              <i>
-                <AiOutlineWhatsApp />
-              </i>
-            </a> */}
+
             <a
               id="contact-linkedin"
-              href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
+              href="https://www.linkedin.com/in/shivampasvan/"
               target="_blank"
             >
               <i>
@@ -88,7 +82,12 @@ const Contact = () => {
               placeholder="How Can I Help You"
               required
             ></textarea>
-            <input type="submit" value="Send Message" className="submit" required />
+            <input
+              type="submit"
+              value="Send Message"
+              className="submit"
+              required
+            />
           </form>
         </div>
       </section>

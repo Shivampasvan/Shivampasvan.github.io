@@ -10,16 +10,18 @@ import End from "./Components/end";
 
 function App() {
   return (
-    <div className="body">
-     <Header />
-     <Home />
-     <About />
-     <Skills />
-     <Projects />
-     <Githubs />
-     <Contact />
-     <End />
-    </div>
+    <>
+      <div className="body">
+        <Header />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Githubs />
+        <Contact />
+        <End />
+      </div>
+    </>
   );
 }
 

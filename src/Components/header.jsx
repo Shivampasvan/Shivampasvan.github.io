@@ -14,7 +14,7 @@ const Header = () => {
       <header id="nav-menu">
         <a href="#" className="logo" onClick={() => setActiveNav("#")}>
           {" "}
-           <span>Uttam Kumar Shaw </span>
+          <span>Shivam Pasvan</span>
         </a>
         <ul className="navlist">
           <li>
@@ -58,12 +58,12 @@ const Header = () => {
             <a
               href={CV}
               target="_blank"
-              download="pdf"
+              download="PDF"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
+                  "https://drive.google.com/file/d/1btpP8GpXCqHSVFquGhEMmGley6nch-kY/view?usp=share_link"
                 )
               }
             >

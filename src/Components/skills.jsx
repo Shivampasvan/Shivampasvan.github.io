@@ -14,13 +14,11 @@ const Skills = () => {
       <section id="skills">
         <div className="main-text">
           <h2>
-          Skills &<span> Tech-Stacks</span>
+            Skills &<span> Tech-Stacks</span>
           </h2>
-          {/* <p style={{ marginTop: "10px" }}>What I am Expert In ?</p> */}
         </div>
 
         <div className="nav-link skills" id="skills-part">
-
           <div className="skills-card">
             <div className="skills-card-img">
               <FaReact
@@ -98,10 +96,6 @@ const Skills = () => {
             </h3>
           </div>
 
-        
-
-          
-
           <div className="skills-card">
             <div className="skills-card-img">
               <TfiWrite
@@ -112,7 +106,6 @@ const Skills = () => {
               DSA
             </h3>
           </div>
-
         </div>
       </section>
     </>

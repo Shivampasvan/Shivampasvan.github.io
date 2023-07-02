@@ -183,9 +183,9 @@ header.sticky {
 /* About Section */
 
 .about-img img {
-  border: 0px solid crimson;
+  /* border: 0px solid crimson; */
   max-width: 350px;
-  height: auto;
+  height: 370px;
   width: 350px;
   border-radius: 50%;
 
@@ -329,7 +329,7 @@ header.sticky {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
-  /* height: 500px; */
+  height: 300px;
 }
 .project-card img {
   width: 100%;
@@ -399,8 +399,8 @@ header.sticky {
 }
 #github-top-langs {
   border: 0px solid rgb(20, 220, 33);
-  height: 195px;
-  margin-top: -10%;
+  height: 250px;
+  padding-top: 8px;
 }
 
 /* contatct */
