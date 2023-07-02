@@ -38,11 +38,10 @@ const Githubs = () => {
           alt="count"
         />
       </div>
-      <div
-        className="react-activity-calendar"
-        style={{ margin: "10px auto 20px auto" }}
-      >
+      <div className="react-activity-calendar" style={{ margin: "30px auto auto auto" }}>
         <GitHubCalendar
+          fontSize={18}
+          blockSize={20}
           colorScheme={"light"}
           // year={2023}
           username="shivampasvan"
