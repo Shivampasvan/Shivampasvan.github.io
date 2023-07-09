@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.53fab09d.css",
-    "main.js": "/static/js/main.7edd8f86.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/staycation.png": "/static/media/staycation.f9abe075de9a700d60f8.png",
-    "static/media/flippers.png": "/static/media/flippers.b260f7308423feeeb974.png",
-    "static/media/digitaro.png": "/static/media/digitaro.57f19dc0bcaf1dee7d41.png",
-    "static/media/cal.png": "/static/media/cal.7912de0d3bc5cfa614b7.png",
-    "static/media/cv.pdf": "/static/media/cv.5bb50ad59a0d588562f4.pdf",
-    "static/media/photo.jpg": "/static/media/photo.d992fd20a0bd8b75a574.jpg",
-    "static/media/purple.avif": "/static/media/purple.af1e065fdf9e07b3d050.avif",
+    "main.css": "/static/css/main.2ca52f2d.css",
+    "main.js": "/static/js/main.70ef37d5.js",
+    "static/media/ndtv.png": "/static/media/ndtv.e94d65cc1f58b0696aa7.png",
+    "static/media/ebay.png": "/static/media/ebay.425120b92708784cc570.png",
+    "static/media/amazon.png": "/static/media/amazon.466cd28bdfbee7b3ec63.png",
+    "static/media/geek.png": "/static/media/geek.0275fa2b9b5b18f05f0b.png",
+    "static/media/profile.jpg": "/static/media/profile.f575ab7061454f416694.jpg",
     "index.html": "/index.html",
-    "main.53fab09d.css.map": "/static/css/main.53fab09d.css.map",
-    "main.7edd8f86.js.map": "/static/js/main.7edd8f86.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.2ca52f2d.css.map": "/static/css/main.2ca52f2d.css.map",
+    "main.70ef37d5.js.map": "/static/js/main.70ef37d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.53fab09d.css",
-    "static/js/main.7edd8f86.js"
+    "static/css/main.2ca52f2d.css",
+    "static/js/main.70ef37d5.js"
   ]
 }
