@@ -1,28 +1,38 @@
+import React from "react";
+import { Header } from "./Components/Header/Header";
 import "./App.css";
-import Home from "./Components/Home";
-import About from "./Components/about";
-import Header from "./Components/header";
-import Skills from "./Components/skills";
-import Projects from "./Components/Projects";
-import Githubs from "./Components/githubs";
-import Contact from "./Components/contact";
-import End from "./Components/end";
-
-function App() {
+import { ThemeContext } from "./Context/theme";
+import { About } from "./Components/About/About";
+import Aos from "aos";
+import "aos/dist/aos.css";
+// import { Techstacks } from "./Components/About/Techstacks";
+import { Github } from "./Components/About/Github";
+import { Projects } from "./Components/Projects/Projects";
+import { Contact } from "./Components/Contact/Contact";
+import { Footer } from "./Components/Footer/Footer";
+import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+export default function App() {
+  const [{ themename }] = React.useContext(ThemeContext);
+  React.useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <>
-      <div className="body">
+    <div id="top" className={`${themename} app`}>
+      <section id="#home">
         <Header />
-        <Home />
+      </section>
+      <main>
         <About />
-        <Skills />
-        <Projects />
-        <Githubs />
-        <Contact />
-        <End />
-      </div>
-    </>
+        <Github />
+        <section id="#projects">
+          <Projects />
+        </section>
+        <section id="#contact">
+          <Contact />
+        </section>
+      </main>
+      <Footer />
+      <ScrollToTop />
+    </div>
   );
 }
-
-export default App;
