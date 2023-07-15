@@ -5,12 +5,14 @@ import {
   SiRedux,
   SiHtml5,
   SiExpress,
-  SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiJavascript,
+  SiChakraui,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import {} from "react-icons/si";
+import {} from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 
@@ -37,6 +39,10 @@ export const Techstacks = () => {
             <h5>React</h5>
           </div>
           <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+          <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
           </div>
@@ -51,15 +57,12 @@ export const Techstacks = () => {
           </div>
 
           <div>
-            <h5>Material Ui</h5>
+            <SiChakraui />
+            <h5>Chakra Ui</h5>
           </div>
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
-          </div>
-          <div>
-            <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
           </div>
           <div>
             <SiNetlify />
